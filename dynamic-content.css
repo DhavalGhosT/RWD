@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 1em;
+  background-color: #1b1b1b;
+  font-family: "Nunito";
+  display: grid;
+}
+
+.content {
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.prod {
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333333;
+  border: 1px solid #757575;
+  height: 250px;
+  font-size: xx-large;
+}
+
+.btn {
+  padding: 0;
+  cursor: pointer;
+  margin-right: 1em;
+  border: 2px solid #757575;
+  border-radius: 2px;
+  height: 2em;
+  width: 2em;
+  background: #333333;
+  color: aliceblue;
+  display: inline-block;
+  font-size: 2em;
+}

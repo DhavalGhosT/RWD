@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  background-color: #1b1b1b;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.content {
+  font-family: "Nunito";
+  background-color: #3700b3;
+  color: white;
+  width: 480px;
+  border-radius: 5px;
+  padding: 45px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 360px;
+  place-items: center;
+}
+
+.login {
+  height: 100%;
+  border-left: 2px solid #1b1b1b;
+  padding-left: 30px;
+}
+
+.info {
+  padding-right: 20px;
+}
